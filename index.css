@@ -1,0 +1,173 @@
+body {
+    font-family: "Smythe", system-ui;
+    margin: 0 auto;
+    width: 600px;
+} 
+
+header {
+    background-image: url("images/hamburger\ background.jpg");
+    padding: 46px 46px 70px 46px;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+header h1 {
+    font-size: 39px;
+}
+
+header p {
+    font-size: 23px;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+#order-container {
+    display: none;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+    background: white;
+    width: 524px;
+    height: 532px;
+    border-radius: 4px;
+    box-shadow: 0 0 60px #393333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin: 0 48px;
+    border-bottom: 1px solid #D2D2D2;
+    padding: 50px 0;
+}
+
+.menu-item-descryption {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.emoji {
+    font-size: 79px;
+}
+
+.item-name {
+    font-size: 28px;
+}
+
+.item-price, .item-price-checkout{
+    font-size: 20px;
+}
+
+.item-price-checkout {
+    margin-left: auto;
+}
+
+.item-ingredients {
+    font-size: 16px;
+    color: #8B8B8B;
+    margin: 8px 0;
+}
+
+.add-btn {
+    margin-left: auto;
+    font-size: 32px;
+    padding: 9px 18px;
+    border-radius: 50%;
+    border: 1.5px solid #DEDEDE;
+    background: white;
+}
+
+.order-title {
+    font-size: 28px;
+    margin: 45px;
+    text-align: center;
+}
+
+.ordered-item {
+    display: flex;
+    align-items: center;
+    margin: 0 48px 25px 48px;
+}
+
+.total-checkout {
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #393333;
+    margin: 0 48px 50px 48px;
+    padding-top: 15px;
+}
+
+#order-btn {
+    width: 508px;
+    background: #ffb703;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 18px 0;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+}
+
+.remove-btn {
+    font-size: 12px;
+    color: #BBBBBB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    background: white;
+    gap: 15px;
+}
+
+.message {
+    color: #065F46;
+    background: #ECFDF5;
+    border-radius: 3px;
+    width: 504px;
+    font-size: 32px;
+    padding: 44px 0;
+    text-align: center;
+    display: block;
+    margin: 45px auto;
+}
+
+#pay-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    width: 477px;
+    border-radius: 4px;
+    color: white;
+    background: #ffb703;
+    border: none;
+    padding: 25px 0;
+    margin-top: 40px;
+}
+
+.input-payment {
+    width: 450px;
+    color: #757575;
+    padding: 15px 0 15px 25px;
+    font-size: 20px;
+    margin-bottom: 23px;
+
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 46px;
+}
